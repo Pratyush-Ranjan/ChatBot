@@ -3,7 +3,7 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
-const APIAI_TOKEN = "7e61888e220249d69e58ecb6515c4efe";
+const APIAI_TOKEN = "Your_Client_Access_Token";
 const APIAI_SESSION_ID = "1234567890";
 var indexRouter = require('./routes/index');
 
